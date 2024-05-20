@@ -27,9 +27,12 @@ import com.ruoyi.common.utils.StringUtils;
  * 
  * @author ruoyi
  */
-public class HttpUtils
-{
+public class HttpUtils {
     private static final Logger log = LoggerFactory.getLogger(HttpUtils.class);
+
+//    public static String asyncSendGet(String url) {
+//        Thread.ofVirtual().start(() -> HttpUtils.sendGet(url));
+//    }
 
     /**
      * 向指定 URL 发送GET方法的请求
